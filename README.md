@@ -19,6 +19,10 @@ Networks & IoT developer (apprentice) based in Paris. European MSc AI4CI (Networ
 | [Application_iPhone_GLPI](https://github.com/ninis25/Application_iPhone_GLPI) | Native iOS client for a GLPI / ITSM platform | Swift |
 | [site-vitrine-assistbotai](https://github.com/ninis25/site-vitrine-assistbotai) | Showcase website for an AI chatbot SaaS | Express, Handlebars |
 
+## Open source contributions
+
+- **[TaskF0RCE/ClaudeScreen](https://github.com/TaskF0RCE/ClaudeScreen)**, [#39](https://github.com/TaskF0RCE/ClaudeScreen/pull/39) (merged): hardened the macOS / Linux version of a desktop agent that lets Claude Code act on the screen. Restricted file reads to the task folders (blocking prompt-injection reads of `~/.ssh`, `.env` or shell history), ported the Windows command guard rules, added opt-in Terminal access, and made tasks fail fast when Screen Recording or Accessibility permissions are missing.
+
 ## Stack
 
 Python · C / C++ · Linux (namespaces, Netlink, Buildroot, BusyBox) · LXC · Docker · Node.js · TypeScript · Vue.js
